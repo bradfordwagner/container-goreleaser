@@ -1,8 +1,8 @@
 target_repo: ghcr.io/bradfordwagner/goreleaser
 flavor: mirror
 builds:
-    - repo: goreleaser
-      repo_override: goreleaser/goreleaser
+    - repo: goreleaser/goreleaser
+      repo_override: goreleaser
       tag: v1.2.2
       archs:
         - linux/amd64
