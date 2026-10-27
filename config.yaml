@@ -3,7 +3,7 @@ flavor: mirror
 builds:
     - repo: goreleaser/goreleaser
       repo_override: goreleaser
-      tag: v1.26.2
+      tag: v2.19.0
       archs:
         - linux/amd64
         - linux/arm64
